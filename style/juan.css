@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    
+
+}
+
+
+nav {
+    background-color: rgb(4, 4, 36);
+    padding: 10px 0;
+    animation-name: izquierda;
+    animation-duration: 3s;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 97%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+
+}
+
+li {
+    margin: 5px 20px;
+    
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Alkatra',cursive;
+}
+.principal{
+
+    text-align: justify;
+    margin: 20px;
+}
+
+.principal p{
+    margin: 20px;
+}
+
+.principal article{
+
+    border: 2px dotted lightgray;
+    margin: 10px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.principal h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-gel{
+    width: 95%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+div.galeria{
+    margin: 10px;
+    box-shadow: 2px 4px 8px lightseagreen;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.galeria img{
+
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+footer{
+    background-color: rgb(4, 4, 36);
+color: white;
+height: 50px;
+text-align: center;
+padding: 20px;
+font-size: 22px;
+}
+
+@media only screen and (max-width: 576px) {
+    .principal h2{
+
+    }
+}
+
+ @media only screen and (min-width: 576px) {
+    
+ }
