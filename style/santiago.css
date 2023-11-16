@@ -19,11 +19,15 @@ nav {
 {
 background-color: aqua;
 height: 500px;
-width: 100px;
+width: 100%;
+display: flex;
+flex-direction: row;
 }
 
 .camon{
     background-color:whitesmoke ;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -88,16 +92,7 @@ a {
 
 
 
-.container {
-    overflow: auto;
-    display: flex;
-    scroll-snap-type: x mandatory;
-    width: 90%;
-    margin: 0 auto;
-    padding: 0 15px;
-    flex-direction: row;
-  }
-  
+
   .card {
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -120,8 +115,32 @@ a {
     margin: 1rem auto;
   }
 
-.container{
-align-items: flex-end;
-
-}
+  .comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  
   
