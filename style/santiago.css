@@ -43,7 +43,6 @@ a {
 
 .containe {
     display: flex;
-    flex-direction: raw;
     justify-content: space-evenly;
     background-color: whitesmoke;
 
