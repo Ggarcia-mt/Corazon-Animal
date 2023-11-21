@@ -2,34 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bree Serif', serif;
-    
-
-}
-
-
-nav {
-    background-color: rgb(4, 4, 36);
-    padding: 12px 0;
-    animation-name: izquierda;
-    animation-duration: 3s;
+    font-family: 'Sriracha', cursive;
    
 }
-.container
-{
-background-color: aqua;
-height: 500px;
-width: 100%;
-display: flex;
-flex-direction: row;
-}
 
-.camon{
-    background-color:whitesmoke ;
-    display: flex;
-    flex-direction: row;
+#icon{
+    height: 100px ;
+    width:100px ;
+    
 }
-
+nav {
+    background-color: rgba(54, 54, 68, 0.342);
+    padding: 10px 0;
+    animation-name: izquierda;
+    animation-duration: 3s;
+}
 
 ul {
     list-style-type: none;
@@ -38,22 +25,57 @@ ul {
     display: flex;
     width: 97%;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items:center;
+    justify-content: end;
     font-size: 1.3rem;
 
 }
 
 li {
     margin: 5px 20px;
-    
 }
-
 
 a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Alkatra',cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:whitesmoke;
+    animation-name: izquierda;
+    animation-duration: 3s;
+    background-image:https:url("https://images.pexels.com/photos/2832119/pexels-photo-2832119.jpeg");
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 500px;
+}
+
+#ko{
+    display: flex;
+    flex-direction: row;
+    align-items:self-start;
+    justify-content: start;
+    font-size: 2rem;
+
+}
+
+
+
+
+.image {
+    justify-content: center;
+    animation-name: subida;
+    animation-duration: 3s;
 }
 
 @keyframes subida {
@@ -72,75 +94,47 @@ a {
     0% {
         transform: translateX(-100%);
     }
-
-    100% {
+    100%{
         transform: translateX(0%);
     }
 }
 
 
-@keyframes derecha {
-    0% {
-        transform: translatey(100%);
-    }
 
-    100% {
-        transform: translatey(0%);
-    }
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
 }
 
+button:hover {
+    letter-spacing: 3px;
+    background-color: rgb(71, 66, 119);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(71, 66, 119);
+}
 
+button:active {
+    letter-spacing: 3px;
+    background-color: rgb(39, 36, 65);
+    color: hsl(0, 0%, 100%);
+    box-shadow:rgb(71, 66, 119) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
 
+footer{
+    background-color: rgb(4, 4, 36);
+color: white;
+height: 100px;
+text-align: center;
+padding: 50px;
+font-size: 22px;
+}
 
-
-  .card {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
-    border-radius: 10px;
-    padding: 0.5rem;
-    margin: 1rem;
-    width: 100%;
-  }
-  
-  .title {
-    width: 100%;
-    display: inline-block;
-    word-break: break-all;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: center;
-    margin: 1rem auto;
-  }
-
-  .comic-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    background-color: #ff5252;
-    border: 2px solid #000;
-    border-radius: 10px;
-    box-shadow: 5px 5px 0px #000;
-    transition: all 0.3s ease;
-  }
-  
-  .comic-button:hover {
-    background-color: #fff;
-    color: #ff5252;
-    border: 2px solid #ff5252;
-    box-shadow: 5px 5px 0px #ff5252;
-  }
-  
-  .comic-button:active {
-    background-color: #fcf414;
-    box-shadow: none;
-    transform: translateY(4px);
-  }
-  
-  
