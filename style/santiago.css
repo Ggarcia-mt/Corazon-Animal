@@ -47,7 +47,7 @@ a {
     background-color:whitesmoke;
     animation-name: izquierda;
     animation-duration: 3s;
-    background-image:https:url("https://images.pexels.com/photos/2832119/pexels-photo-2832119.jpeg");
+    background-image:url("https://images.pexels.com/photos/2832119/pexels-photo-2832119.jpeg");
 }
 
 .titulo {
