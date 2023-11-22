@@ -53,7 +53,9 @@ a {
     animation-duration: 3s;
     background-image:url("https://images.pexels.com/photos/2832119/pexels-photo-2832119.jpeg");
 }
-
+#a{
+    color: #000;
+}
 .titulo {
     display: flex;
     flex-direction: column;
