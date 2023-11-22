@@ -146,7 +146,7 @@ padding: 50px;
 font-size: 22px;
 }
 
-<<<<<<< HEAD
+
 #gallery {
     display: flex;
     flex-wrap: wrap;
@@ -176,7 +176,7 @@ font-size: 22px;
     display: none;
     padding: 15px;
 }
-=======
+
 .social-buttons {
     display: flex;
     justify-content: center;
@@ -260,4 +260,4 @@ font-size: 22px;
     fill: #c13584;
   }
   
->>>>>>> dda2643844dbe35c136e6884a681f70ccf70aa88
+
