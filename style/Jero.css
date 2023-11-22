@@ -97,3 +97,11 @@ nav ul li a {
     border: none;
     border-radius: 10px; 
 }
+footer{
+    background-color:rgb(196, 52, 44);
+color: white;
+height: 200px;
+text-align: center;
+padding: 50px;
+font-size: 22px;
+}
