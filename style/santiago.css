@@ -41,11 +41,9 @@ a {
 }
 
 .container {
+    
     display: flex;
-<<<<<<< HEAD
-=======
     flex-direction: row;
->>>>>>> e26a2005805ff51eda1b81d4ddd7f5eb10b6b43a
     justify-content: space-evenly;
     background-color:whitesmoke;
     animation-name: izquierda;
@@ -62,7 +60,10 @@ a {
     height: 500px;
     width: 500px;
 }
-
+#logo{
+    width: 300px;
+    height: 300px;
+}
 #ko{
     display: flex;
     flex-direction: row;
@@ -72,7 +73,10 @@ a {
 
 }
 
-
+img{
+    width: 500px;
+    height:500px ;
+}
 
 
 .image {
