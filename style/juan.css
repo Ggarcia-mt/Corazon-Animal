@@ -103,7 +103,6 @@ font-size: 22px;
  @media only screen and (min-width: 576px) {
     
  }
-<<<<<<< HEAD
  footer{
     background-color:rgb(196, 52, 44);
 color: white;
@@ -112,7 +111,6 @@ text-align: center;
 padding: 50px;
 font-size: 22px;
 }
-=======
 
  .card {
     max-width: 320px;
@@ -175,4 +173,3 @@ font-size: 22px;
     color: rgba(255, 255, 255, 1);
     background-color: transparent;
   }
->>>>>>> dda2643844dbe35c136e6884a681f70ccf70aa88
