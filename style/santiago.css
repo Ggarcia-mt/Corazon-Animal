@@ -156,22 +156,28 @@ font-size: 22px;
     flex-direction: row;
 }
 #gallery img {
-    width: 250px;
-    height: 250px;
-    border-radius: 5px;
+    width: 260px;
+    height: 260px;
+    border-end-end-radius: 5px;
+    justify-content: center;
 }
 .card {
     border: 1px solid #ccc;
     width: 270px;
+    height: 270px;
     margin: 10px;
     transition: 0.3s;
+    padding-left: 3px;
+    padding-top: 3px;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 280px;
+    height: 280px;
 }
 .card img {
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 98%;
     border-radius: 5px;
 }
 .card-text {
@@ -263,7 +269,3 @@ font-size: 22px;
     fill: #c13584;
   }
   
-<<<<<<< HEAD
-=======
-
->>>>>>> 360763ec3896e2079488e630a00aede804a46c99
