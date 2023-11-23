@@ -102,7 +102,12 @@ font-size: 22px;
 
  @media only screen and (min-width: 576px) {
     
+<<<<<<< HEAD
+ }
+ footer{
+=======
  } footer{
+>>>>>>> 360763ec3896e2079488e630a00aede804a46c99
     background-color:rgb(196, 52, 44);
 color: white;
 height: 200px;
@@ -110,7 +115,10 @@ text-align: center;
 padding: 50px;
 font-size: 22px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 360763ec3896e2079488e630a00aede804a46c99
 
  .card {
     max-width: 320px;
@@ -173,4 +181,7 @@ font-size: 22px;
     color: rgba(255, 255, 255, 1);
     background-color: transparent;
   }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 360763ec3896e2079488e630a00aede804a46c99
