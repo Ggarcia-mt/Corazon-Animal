@@ -96,18 +96,16 @@ font-size: 22px;
 
 
 @media only screen and (max-width: 576px) {
-  .principal h2{
-    
-  }
+  
 }
 
 @media only screen and (min-width: 576px) {
   
 
 }
-footer{
 
-} footer{
+
+footer{
 
 
   background-color:rgb(196, 52, 44);
