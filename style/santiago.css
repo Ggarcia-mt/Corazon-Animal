@@ -51,7 +51,7 @@ a {
     background-color:whitesmoke;
     animation-name: izquierda;
     animation-duration: 3s;
-    background-image:url("https://images.pexels.com/photos/2832119/pexels-photo-2832119.jpeg");
+    
 }
 #a{
     color: #000;
@@ -148,7 +148,7 @@ padding: 50px;
 font-size: 22px;
 }
 
-<<<<<<< HEAD
+
 #gallery {
     display: flex;
     flex-wrap: wrap;
@@ -178,13 +178,13 @@ font-size: 22px;
     display: none;
     padding: 15px;
 }
-=======
+
 .social-buttons {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
-    box-shadow: 0px 0px 15px #00000027;
+    background-color:rgb(196, 52, 44);
     padding: 15px 10px;
     border-radius: 5em;
   }
@@ -262,4 +262,3 @@ font-size: 22px;
     fill: #c13584;
   }
   
->>>>>>> dda2643844dbe35c136e6884a681f70ccf70aa88
