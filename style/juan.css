@@ -102,12 +102,12 @@ font-size: 22px;
 
  @media only screen and (min-width: 576px) {
     
-<<<<<<< HEAD
+
  }
  footer{
 =======
  } footer{
->>>>>>> 360763ec3896e2079488e630a00aede804a46c99
+
     background-color:rgb(196, 52, 44);
 color: white;
 height: 200px;
@@ -115,10 +115,6 @@ text-align: center;
 padding: 50px;
 font-size: 22px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 360763ec3896e2079488e630a00aede804a46c99
 
  .card {
     max-width: 320px;
@@ -181,7 +177,145 @@ font-size: 22px;
     color: rgba(255, 255, 255, 1);
     background-color: transparent;
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> 360763ec3896e2079488e630a00aede804a46c99
+  .card1 {
+    width: 300px;
+    padding: 15px;
+    background: #ffffff;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgb(196, 52, 44);
+    position: relative;
+  }
+  
+  .card1 .title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(196, 52, 44);
+  }
+  
+  .card1 .price {
+    color: rgb(196, 52, 44);
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin: 10px 0;
+  }
+  
+  .card1 span {
+    font-size: 1.2rem;
+  }
+  
+  .card1 .description {
+    color: #3b3b3b;
+    font-size: 1.1rem;
+    margin: 10px 0 10px;
+  }
+  
+  .card1 .offer {
+    display: block;
+    color: #555;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .subscribe-button {
+    display: inline-block;
+    padding: 5px 0;
+    background-color: rgb(196, 52, 44);
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    width: 50%;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  
+  .subscribe-button:hover {
+    opacity: .85;
+  }
+  
+  .ribbon-wrap {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    pointer-events: none;
+  }
+  
+  .ribbon {
+    width: 200px;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #000;
+    background: #40B3A2;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -10px;
+    top: 55%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cards .red {
+    background-color: #f43f5e;
+  }
+  
+  .cards .blue {
+    background-color: #dddb77;
+  }
+  
+  .cards .green {
+    background-color: #946042;
+  }
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+  .pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+  }
