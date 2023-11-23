@@ -1,92 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Bree Serif', serif;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bree Serif', serif;
+  
 
 }
 
 
 nav {
-    background-color: rgb(4, 4, 36);
-    padding: 10px 0;
-    animation-name: izquierda;
-    animation-duration: 3s;
-   
+  background-color: rgb(4, 4, 36);
+  padding: 10px 0;
+  animation-name: izquierda;
+  animation-duration: 3s;
+ 
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 97%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1.3rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 97%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
 
 }
 
 li {
-    margin: 5px 20px;
-    
+  margin: 5px 20px;
+  
 }
 
 
 a {
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Alkatra',cursive;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Alkatra',cursive;
 }
 .principal{
 
-    text-align: justify;
-    margin: 20px;
+  text-align: justify;
+  margin: 20px;
 }
 
 .principal p{
-    margin: 20px;
+  margin: 20px;
 }
 
 .principal article{
 
-    border: 2px dotted lightgray;
-    margin: 10px 50px;
-    padding: 20px;
-    text-align: center;
+  border: 2px dotted lightgray;
+  margin: 10px 50px;
+  padding: 20px;
+  text-align: center;
 }
 
 .principal h2{
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
 .container-gel{
-    width: 95%;
-    align-content: center;
-    margin: 0 auto;
+  width: 95%;
+  align-content: center;
+  margin: 0 auto;
 }
 
 div.galeria{
-    margin: 10px;
-    box-shadow: 2px 4px 8px lightseagreen;
-    width: 300px;
-    margin: 0 auto;
-    display: inline-block;
-    margin-left: 10px;
+  margin: 10px;
+  box-shadow: 2px 4px 8px lightseagreen;
+  width: 300px;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .galeria img{
 
-    width: 300px;
-    height: 300px;
-    margin: 10px auto;
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
 }
 
 footer{
-    background-color: rgb(4, 4, 36);
+  background-color: rgb(4, 4, 36);
 color: white;
 height: 50px;
 text-align: center;
@@ -96,21 +96,21 @@ font-size: 22px;
 
 
 @media only screen and (max-width: 576px) {
-    .principal h2{
-      
-    }
+  .principal h2{
+    
+  }
 }
 
- @media only screen and (min-width: 576px) {
-    
+@media only screen and (min-width: 576px) {
+  
 
- }
- footer{
+}
+footer{
 
- } footer{
+} footer{
 
 
-    background-color:rgb(196, 52, 44);
+  background-color:rgb(196, 52, 44);
 color: white;
 height: 200px;
 text-align: center;
@@ -119,228 +119,228 @@ font-size: 22px;
 }
 
 
- 
-  .card1 {
-    width: 300px;
-    padding: 15px;
-    background: #ffffff;
-    text-align: center;
-    border: 1px solid #000;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 0 15px rgb(196, 52, 44);
-    position: relative;
-  }
-  
-  .card1 .title {
-    font-size: 2rem;
-    font-weight: 500;
-    color: rgb(196, 52, 44);
-  }
-  
-  .card1 .price {
-    color: rgb(196, 52, 44);
-    font-weight: 700;
-    font-size: 2.2rem;
-    margin: 10px 0;
-  }
-  
-  .card1 span {
-    font-size: 1.2rem;
-  }
-  
-  .card1 .description {
-    color: #3b3b3b;
-    font-size: 1.1rem;
-    margin: 10px 0 10px;
-  }
-  
-  .card1 .offer {
-    display: block;
-    color: #555;
-    font-size: 1rem;
-    margin-top: 10px;
-  }
-  
-  .subscribe-button {
-    display: inline-block;
-    padding: 5px 0;
-    background-color: rgb(196, 52, 44);
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #000;
-    border-radius: 30px;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    width: 50%;
-    font-weight: 500;
-    transition: 0.2s ease;
-  }
-  
-  .subscribe-button:hover {
-    opacity: .85;
-  }
-  
-  .ribbon-wrap {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: -20px;
-    left: 50px;
-    pointer-events: none;
-  }
-  
-  .ribbon {
-    width: 200px;
-    font-size: 0.8rem;
-    text-align: center;
-    padding: 4px 0;
-    border: 1px solid #000;
-    background: #40B3A2;
-    color: #fff;
-    position: absolute;
-    transform: rotate(-45deg);
-    right: -10px;
-    top: 55%;
-  }
 
-  .cards {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .cards .red {
-    background-color: #f43f5e;
-  }
-  
-  .cards .blue {
-    background-color: #dddb77;
-  }
-  
-  .cards .green {
-    background-color: #946042;
-  }
-  
-  .cards .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100px;
-    width: 250px;
-    border-radius: 10px;
-    color: white;
-    cursor: pointer;
-    transition: 400ms;
-  }
-  
-  .cards .card p.tip {
-    font-size: 1em;
-    font-weight: 700;
-  }
-  
-  .cards .card p.second-text {
-    font-size: .7em;
-  }
-  
-  .cards .card:hover {
-    transform: scale(1.1, 1.1);
-  }
-  
-  .cards:hover > .card:not(:hover) {
-    filter: blur(10px);
-    transform: scale(0.9, 0.9);
-  }
+.card1 {
+  width: 300px;
+  padding: 15px;
+  background: #ffffff;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgb(196, 52, 44);
+  position: relative;
+}
 
-  .pro{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 100px;
-  }
+.card1 .title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(196, 52, 44);
+}
 
-  .social-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(196, 52, 44);
-    padding: 15px 10px;
-    border-radius: 5em;
-  }
-  
-  .social-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin: 0 10px;
-    background-color: #fff;
-    box-shadow: 0px 0px 4px #00000027;
-    transition: 0.3s;
-  }
-  
-  .social-button:hover {
-    background-color: #f2f2f2;
-    box-shadow: 0px 0px 6px 3px #00000027;
-  }
-  
-  .social-buttons svg {
-    transition: 0.3s;
-    height: 20px;
-  }
-  
-  .facebook {
-    background-color: #3b5998;
-  }
-  
-  .facebook svg {
-    fill: #f2f2f2;
-  }
-  
-  .facebook:hover svg {
-    fill: #3b5998;
-  }
-  
-  .github {
-    background-color: #333;
-  }
-  
-  .github svg {
-    width: 25px;
-    height: 25px;
-    fill: #f2f2f2;
-  }
-  
-  .github:hover svg {
-    fill: #333;
-  }
-  
-  .linkedin {
-    background-color: #0077b5;
-  }
-  
-  .linkedin svg {
-    fill: #f2f2f2;
-  }
-  
-  .linkedin:hover svg {
-    fill: #0077b5;
-  }
-  
-  .instagram {
-    background-color: #c13584;
-  }
-  
-  .instagram svg {
-    fill: #f2f2f2;
-  }
-  
-  .instagram:hover svg {
-    fill: #c13584;
-  }
+.card1 .price {
+  color: rgb(196, 52, 44);
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+.card1 span {
+  font-size: 1.2rem;
+}
+
+.card1 .description {
+  color: #3b3b3b;
+  font-size: 1.1rem;
+  margin: 10px 0 10px;
+}
+
+.card1 .offer {
+  display: block;
+  color: #555;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.subscribe-button {
+  display: inline-block;
+  padding: 5px 0;
+  background-color: rgb(196, 52, 44);
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  width: 50%;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.subscribe-button:hover {
+  opacity: .85;
+}
+
+.ribbon-wrap {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -20px;
+  left: 50px;
+  pointer-events: none;
+}
+
+.ribbon {
+  width: 200px;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 4px 0;
+  border: 1px solid #000;
+  background: #40B3A2;
+  color: #fff;
+  position: absolute;
+  transform: rotate(-45deg);
+  right: -10px;
+  top: 55%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cards .red {
+  background-color: #f43f5e;
+}
+
+.cards .blue {
+  background-color: #dddb77;
+}
+
+.cards .green {
+  background-color: #946042;
+}
+
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.cards .card p.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.cards .card p.second-text {
+  font-size: .7em;
+}
+
+.cards .card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.cards:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+.pro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(196, 52, 44);
+  padding: 15px 10px;
+  border-radius: 5em;
+}
+
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px #00000027;
+  transition: 0.3s;
+}
+
+.social-button:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 6px 3px #00000027;
+}
+
+.social-buttons svg {
+  transition: 0.3s;
+  height: 20px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.facebook svg {
+  fill: #f2f2f2;
+}
+
+.facebook:hover svg {
+  fill: #3b5998;
+}
+
+.github {
+  background-color: #333;
+}
+
+.github svg {
+  width: 25px;
+  height: 25px;
+  fill: #f2f2f2;
+}
+
+.github:hover svg {
+  fill: #333;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.linkedin svg {
+  fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+  fill: #0077b5;
+}
+
+.instagram {
+  background-color: #c13584;
+}
+
+.instagram svg {
+  fill: #f2f2f2;
+}
+
+.instagram:hover svg {
+  fill: #c13584;
+}
